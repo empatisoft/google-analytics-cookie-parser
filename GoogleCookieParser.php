@@ -90,8 +90,8 @@ class GoogleCookieParser {
             $this->utm_source = isset($data["utmcsr"]) ? $data["utmcsr"] : null;;
             $this->utm_campaign = isset($data["utmccn"]) ? $data["utmccn"] : null;
             $this->utm_content = isset($data["utmcct"]) ? $data["utmcct"] : null;
-            $this->utm_term = isset($data["utmctr"]) ? $data["utmctr"] : null;;
-            $this->utm_medium = isset($data["utmcmd"]) ? $data["utmcmd"] : null;;
+            $this->utm_term = isset($data["utmctr"]) ? $data["utmctr"] : null;
+            $this->utm_medium = isset($data["utmcmd"]) ? $data["utmcmd"] : null;
         }
     }
 }
